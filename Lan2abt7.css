@@ -1,0 +1,1061 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+   
+}
+
+.Trai .bogach1{
+    text-decoration: none;
+    color: black;
+}
+.Trai .bogach{
+    text-decoration: none;
+}
+
+.Trai{
+    width: 300px;
+    height: 100vh;
+    margin-top: -20px;
+    position: fixed;
+    background-color: white;
+    display: block;
+    animation: Keo 1s;
+}
+@keyframes Keo {
+    0% {
+        left: -300px;
+    }
+    100% {
+        left: 0%;
+    }
+}
+
+.Trai .fas{
+    margin-right: 16px;
+}
+
+.Trai .Tren{
+    padding: 0 16px;
+    background-color: white;
+    
+}
+
+.Trai .Tren1{
+    cursor: text;
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    background-color: white;
+}
+.Trai .Tren2{
+    cursor: text;
+    margin: 15px 0;
+    font-size: 15px;
+    color: #757575;
+    line-height: 22.5px;
+    background-color: white;
+}
+.Trai .Duoi1{
+    cursor: pointer;
+    padding: 8px 16px;
+    font-size: 15px;
+    color: #009688;
+    line-height: 22.5px;
+    background-color: white;
+}
+.Trai .Duoi2{
+    cursor: pointer;
+    padding: 8px 16px;
+    font-size: 15px;
+    line-height: 22.5px;
+    background-color: white;
+}
+.Trai .Duoi3{
+    margin: 16px 0;
+    padding: 8px 16px;
+    font-size: 18px;
+    line-height: 27px;
+    background-color: white;
+}
+.Trai .Duoi3 i:hover{
+    opacity: 70%;
+}
+
+.Trai .Duoi1:hover{
+    background-color: #ccc;
+    color: black;
+}
+.Trai .Duoi2:hover{
+    background-color: #ccc;
+    color: black;
+}
+.Trai .Duoi1:hover i{
+    background-color: #ccc;
+    color: black;
+}
+.Trai .Duoi2:hover i{
+    background-color: #ccc;
+    color: black;
+}
+
+.Trai img{
+    width: 120px;
+    height:  120px;
+    border-radius: 4px ;
+    margin-bottom: 16px;
+
+}
+.offcanvas .bogach1{
+    text-decoration: none;
+    color: black;
+}
+.offcanvas .bogach{
+    text-decoration: none;
+}
+div.offcanvas-start{
+    width: 300px;
+}
+div.offcanvas{
+    background-color: white;
+}
+.offcanvas .offcanvas-body div{
+    background-color: white;
+}
+.offcanvas .offcanvas-body{
+    background-color: white;
+}
+.offcanvas .offcanvas-header button:hover i{
+    background-color: #757575;
+}
+.offcanvas .offcanvas-header button:hover{
+    background-color: #757575;
+}
+.offcanvas .offcanvas-header button i{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: white;
+    font-weight: 900;
+    font-size: 70px;
+}
+.offcanvas .offcanvas-header button{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: white;
+}
+.offcanvas .offcanvas-header button{
+    padding: 8px 16px;
+    line-height: 96px;
+    font-size: 64px;
+    opacity: 1;
+}
+.offcanvas .offcanvas-header{
+    background-color: white;
+    padding-top: 0;
+}
+
+.offcanvas{
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    background-color: white !important;
+    display: block;
+}
+
+.offcanvas .fas{
+    margin-right: 16px;
+}
+
+.offcanvas .Tren{
+    padding: 0 16px;
+    background-color: white;
+    
+}
+
+.offcanvas .Tren1{
+    cursor: text;
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    background-color: white;
+}
+.offcanvas .Tren2{
+    cursor: text;
+    margin: 15px 0;
+    font-size: 15px;
+    color: #757575;
+    line-height: 22.5px;
+    background-color: white;
+}
+.offcanvas .Duoi1{
+    cursor: pointer;
+    padding: 8px 16px;
+    font-size: 15px;
+    color: #009688;
+    line-height: 22.5px;
+    background-color: white;
+}
+.offcanvas .Duoi2{
+    cursor: pointer;
+    padding: 8px 16px;
+    font-size: 15px;
+    line-height: 22.5px;
+    background-color: white;
+}
+.offcanvas .Duoi3{
+    margin: 16px 0;
+    padding: 8px 16px;
+    font-size: 18px;
+    line-height: 27px;
+    background-color: white;
+}
+.offcanvas .Duoi3 i:hover{
+    opacity: 70%;
+}
+
+.offcanvas .Duoi1:hover{
+    background-color: #ccc;
+    color: black;
+}
+.offcanvas .Duoi2:hover{
+    background-color: #ccc;
+    color: black;
+}
+.offcanvas .Duoi1:hover i{
+    background-color: #ccc;
+    color: black;
+}
+.offcanvas .Duoi2:hover i{
+    background-color: #ccc;
+    color: black;
+}
+
+.offcanvas img{
+    width: 120px;
+    height:  120px;
+    border-radius: 4px ;
+    margin-bottom: 16px;
+
+}
+
+.Phai{
+    margin-left: 300px ;
+    width: calc(100vw-300px);
+}
+.Phai .Header{
+    padding: 0 16px;
+}
+.Phai .Hd1{
+    border-bottom: #ccc 6px solid;
+    display: flex;
+    flex-direction: row;
+    margin: 16px 0;
+    padding:  16px 0;
+    font-size: 15px;
+    
+}
+.Phai .Header h1{
+    margin: 10px 0;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
+}
+.Hd1 .Filter{
+    margin: 0 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+    text-align: start;
+    cursor:text
+    
+    
+}
+
+.Hd1 .All:hover{
+    color: black;
+    background-color: #ccc;
+}
+.Hd1 .All{
+    margin: 0 2px;
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+    cursor:pointer
+}
+.Hd1 .Design{
+    margin: 0 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    background-color: white;
+    color: black;
+    cursor:pointer
+}
+.Hd1 .Photos{
+    margin: 0 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    background-color: white;
+    color: black;
+    cursor:pointer
+}
+.Hd1 .ArtArt{
+    margin: 0 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    background-color: white;
+    color: black;
+    cursor:pointer
+    
+}
+.Header i{
+    margin-right: 16px;
+    background-color: white;
+}
+.Hd1 .rr1:hover{
+    background-color: #ccc;
+}
+.Hd1 div:hover i{
+    background-color: #ccc;
+}
+
+.Card1{
+    display: flex;
+    flex-direction: row;
+    width:calc(100%-4px);
+    padding: 0 8px;
+    padding-left: 0;
+    padding-right: 8px;
+    background-color: #f1f1f1;
+    border: 0;
+    margin-left: 8px;
+    
+}
+.Card1 div{
+    max-width: 100%;
+    padding:  0 8px;
+    margin-bottom: 16px;
+    background-color: #f1f1f1;
+    border: 0;
+    padding-bottom: 16px;
+}
+.Card1 img{
+    border-radius: 0;
+}
+.Card2 img{
+    border-radius: 0;
+}
+.Card img:hover{
+    opacity: 70%;
+}
+.Card2{
+    display: flex;
+    flex-direction: row;
+    width:calc(100%-4px);
+    padding: 0 8px;
+    padding-left: 0;
+    padding-right: 8px;
+    background-color: #f1f1f1;
+    border: 0;
+    margin-left: 8px;
+}
+.Card2 div{
+    max-width: 100%;
+    padding:  0 8px;
+    margin-bottom: 16px;
+    background-color: #f1f1f1;
+    border: 0;
+    padding-bottom: 16px;
+}
+.Card h5{
+    margin: 15px 0;
+}
+.Card .card-text{
+    margin: 15px 0;
+    font-size: 15px;
+}
+.Card .card-body{
+    background-color: white;
+}
+.Card .card-body h5{
+    background-color: white;
+    cursor: text;
+}
+.Card .card-body p{
+    background-color: white;
+    cursor: text;
+}
+
+
+
+.Trangg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.Trangg .page-link{
+    background-color: #f1f1f1;
+    color: black;
+    border: none;
+}
+.Trangg .page-link:hover{
+    background-color: black;
+    color: white;
+}
+.Trangg .page-link:hover span{
+    background-color: black;
+    color: white;
+}
+.Trangg  li:hover{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.Trangg .BBB{
+    background-color: black;
+    color: white;
+}
+.Anh1{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    padding: 16px 8px;
+}
+.Anh1 img{
+    padding: 0 8px;
+    width: 50%;
+}
+.Intro {
+    padding: 12px 24px;
+}
+.Intro h3{
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+.Intro h4{
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+.Intro .ble1{
+    font-size: 20px;
+    font-weight: 400;
+}
+.Intro p{
+    margin: 15px 0;
+}
+.Intro .Me15{
+    margin: 15px 0;
+}
+.Intro .tyso{
+    display: flex;
+    background-color: #ccc;
+    width: 100%;
+    line-height: 22.5px;
+}
+.Intro .ts1{
+   padding: 8px 16px;
+    background-color: #757575;
+    width: 95%;
+    text-align: center;
+    
+}
+.Intro .ts2{
+   padding: 8px 16px;
+    background-color: #757575;
+    width: 85%;
+    text-align: center;
+    
+}
+.Intro .ts3{
+   padding: 8px 16px;
+    background-color: #757575;
+    width: 80%;
+    text-align: center;
+    
+}
+.Intro .Me16 button{
+    padding: 12px 24px;
+    margin: 16px 0;
+    border: 0;
+    background-color: #757575;
+    color: white;
+    cursor: pointer;
+}
+.Intro .Me16 button:hover{
+    opacity: 60%;
+}
+.Intro .Me16 button i{
+    background-color: #757575;
+    color: white;
+}
+.Price{
+    display: flex;
+    width: calc(100%+16px);
+    margin: 0 -8px;
+}
+.Price .Price-content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+}
+
+.Price .Price-content .card:hover{
+    opacity: 1;
+}
+
+.Price .Price-content .Card1 div{
+    border: 1px solid #ccc;
+}
+.Price .Price-content .Card1 .card li{
+    padding: 16px;
+}
+.Price .Price-content .Card1 .card h5{
+    background-color: black;
+    color: white;
+}
+.Price .Price-content .Card1 .card div{
+    border: 0;
+}
+.Price .Price-content .Card1 .card2 div{
+    border: 0;
+}
+.Price .Price-content .Card1 .card2 h5{
+    background-color: #009688;
+    color: white;
+    font-size: 24px;
+    line-height: 36px;
+    padding: 32px 16px;
+    margin: 0;
+}
+.Price .Price-content .Card1{ 
+    padding: 0 8px;
+    width: 100%;
+    margin: 0;
+    
+}
+.Price .Price-content .card{
+    max-width: 100%;
+    width: 100%;
+    opacity: 60%;
+    padding: 0px;
+}
+.Price .Price-content h5{
+    font-size: 24px;
+    line-height: 36px;
+    padding: 32px 16px;
+    margin: 0;
+}
+
+.Price .Price-content .card-body .b3{
+    background-color: black;
+    color: white;
+}
+.Price .Price-content .card .b2{
+    background-color: #009688;
+    color: white;
+    padding: 16px;
+}
+.Price .Price-content .bb2{
+    padding: 32px 16px;
+}
+.Price .Price-content .card-body{
+    background-color: black;
+}
+.Price .Price-content .card-body1{
+    background-color: #009688;
+}
+.Price .Price-content .Tien{
+    font-size: 30px;
+    margin: 10px 0;
+    padding: 0;
+    background-color: white;
+}
+.Price .Price-content .Tien2{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+.Price .Price-content .card-body3 button{
+    border-radius: 0;
+    background-color: #009688;
+    color: white;
+    border: 0;
+    padding: 12px 24px;
+}
+.Price .Price-content .card-body3{
+    padding: 24px 16px;
+}
+.Price .Price-content .card-body3 a{
+    padding: 12px 24px;
+    background-color: #009688;
+    color: white;
+    text-decoration: unset;
+}
+.modal-header .modal-title{
+    background-color:#009688;
+}
+
+.modal-content{
+    width: 100%;
+}
+.modal-content .Head .Can2{
+    background-color:#009688;
+    color: white;
+}
+.modal-body .Send i{
+    background-color:#009688;
+    color: white;
+}
+.modal-body .Send button{
+    width: 100%;
+    background-color:#009688;
+    border-radius: 0;
+    border: 0;
+}
+.modal-content .Foot button{
+    background-color: red;
+    color: white;
+    border-radius: 0;
+    border: 0;
+    padding: 0 12px;
+}
+.modal-content .Foot {
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.modal-content .Head .Can{
+    background-color:#009688;
+    color: white;
+    line-height: 80px;
+    font-size: 36px;
+    padding-left: 35%;
+}
+.modal-content .Head .Can i{
+    padding-right: 16px;
+    background-color:#009688;
+    color: white;
+}
+.modal-content .Head{
+    background-color: #009688;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.modal-header i{
+    background-color: #009688;
+    color: white;
+    padding-right: 16px;
+}
+.modal-header{
+    background-color: #009688; 
+    color: white;
+    text-align: center;
+    padding-left: 500px;
+    
+}
+.exampleModalLabel{
+    text-align: center;
+}
+.modal{
+    background: none;
+}
+.Contact .ke{
+    border-top: 1px solid white;
+    opacity: 0.6;
+    margin: 20px 0;}
+.Contact .input input{
+    width: 100%;
+    border: 1px rgb(204, 204, 204) solid;
+    padding: 8px;
+}
+.Contact .input div{
+    width: fit-content;
+    background-color: #9e9e9e;
+}
+.Contact .but button:hover i{
+    background-color: #f1f1f1;
+    color: black; 
+}
+.Contact .but button:hover{
+    background-color: #f1f1f1;
+    color: black;
+}
+.Contact .but{
+    background-color: #9e9e9e;
+}
+.Contact .but i{
+    background-color: black;
+    color: white;
+}
+.Contact .but button{
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    border: 0;
+}
+.Contact .input{
+    width: 100%;
+    margin: 16px 0;
+    background-color: #9e9e9e;
+}
+.Contact{
+    width: 100%;
+    padding: 12px 24px;
+    background-color: #9e9e9e;
+}
+.Contact .Contact1 div{
+    width: 100%;
+}
+.Contact h1{
+    background-color: #9e9e9e;
+    margin: 10px 0;
+    font-size: 20px;
+}
+.Contact .Contact1{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: calc(100%+16px);
+    margin: 0 -16px;
+    padding: 24px 8px;
+    background-color: #9e9e9e;
+}
+
+.Contact .Contact2 .ma12{
+    text-align: center;
+    padding: 0;
+    margin: 0 8px;
+
+}
+.Contact .Contact3 p{
+    margin: 15px 0;
+    width: 100%;
+    background-color: #009688;
+}
+.Contact .Contact2 p{
+    margin: 15px 0;
+    width: 100%;
+    background-color: #616161;
+}
+.Contact .Contact2 i{
+   color: white;
+   font-size: 36px;
+   background-color: #616161;
+   border: 0;
+}
+.Contact .Contact2 .ct{
+   margin: 15px 0;
+   color: white;
+   background-color: #616161;
+}
+.Contact .Contact3 i{
+   color: white;
+   font-size: 36px;
+   background-color: #009688;
+}
+.Contact .Contact3 .ct{
+   margin: 15px 0;
+   color: white;
+   background-color: #009688;
+}
+.Contact .Contact2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ padding: 0 8px;
+ background-color: #616161;
+}
+.Contact .Contact2 div{
+ background-color: #616161;
+
+}
+.Contact .Contact3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 8px;
+ background-color: #009688;
+}
+.Contact .Contact3 div{
+
+ background-color: #009688;
+}
+.Footer1 .f1 .p3{
+    margin: 15px 0;
+}
+.Footer1  h1{
+    background-color: #616161;
+    color: white;
+    margin: 10px 0;
+    font-size: 24px;
+}
+.Footer1 p{
+    background-color: #616161;
+    color: white;
+}
+.Footer1 .f1 a:hover{
+    color: white;
+}
+.Footer1 .f1 a{
+    background-color: #616161;
+    color: white;
+}
+.Footer1 .f2 .pa16 img{
+   width: 50px;
+   margin-right: 16px;
+}
+.Footer1 .f2 .pa17 img{
+   width: 50px;
+   margin-right: 16px;
+}
+
+.Footer1 .f2 .h18 {
+    font-size: 18px;
+}
+.Footer1 .f2 .pa16 p{
+    margin: 0;
+}
+.Footer1 .f2 .pa17 p{
+    margin: 0;
+}
+.Footer1 .f2 .pa17{
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    border-bottom: 0;
+}
+.Footer1 .f2 .pa16{
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+.Footer1 .f2{
+    font-size: 15px;
+    width: 33%;
+}
+.Footer1 .f1{
+    padding: 0 8px;
+    background-color: #616161;
+    max-width: 35%;
+}
+.Footer1 div{
+    background-color: #616161;
+}
+
+
+.Footer1  .f3 button{
+    margin-bottom: 16px;
+    border: 0;
+    padding:0 8px;
+    background-color: #9e9e9e;
+    color: black;
+    height: fit-content;
+    font-size: 12px;
+    box-sizing: content-box;
+    line-height: 16px;
+}
+.Black1 button{
+    background-color: black;
+}
+.Footer1  .f3 .ss1 .tv2{
+    background-color: black;
+}
+.Footer1  .f3 .ss1 .tv2 button{
+    
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+.Footer1  .f3 .ss1{
+    margin: 15px 0;
+    line-height: 30px;
+}
+.Footer1  .f3{
+    max-width: 35%;
+    padding: 0 8px;
+    font-size: 12px;
+}
+.Footer1{
+    padding: 32px 16px;
+    display: flex;
+    flex-direction: row;
+    background-color: #616161;
+}
+
+.end a:hover{
+    color: #9e9e9e;
+}
+.end a{
+    background-color: black;
+    color: white;
+}
+.end{
+    background-color: black;
+    color: white;
+    padding: 24px 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+.Tong .cc2 img:hover{
+    opacity: 60%;
+}
+.Tong .cc1 i{
+    background-color: #f1f1f1;
+    color: black;
+    border: 0;
+    padding: 8px 16px;
+    margin: 0;
+    line-height: 54px;
+}
+.Tong .cc1 a{
+    background-color: #f1f1f1;
+    padding: 8px 16px;
+    font-size: 36px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    
+}
+.Tong .cc2 img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin: 16px;
+}
+
+.Tong .CC .btn{
+    padding: 0;
+    border: 0;
+}
+
+.Tong .CC{
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 992px) 
+{
+    *{background-color: #f1f1f1;}
+    .Trai{
+        display: none;
+        width: 0px;
+    }
+    .Phai{
+        margin-left: 0 ;
+        width: 100%;}
+    .Tong .CC{
+            display: flex ;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    div.offcanvas{
+            background-color: white;
+             }
+}
+@media screen and (max-width: 600px) 
+{
+    *{background-color: #f1f1f1;}
+    .Trai{
+        display: none;
+        width: 0px;
+    }
+    .Phai{
+        margin-left: 0 ;
+        width: 100%;}
+    .Tong .CC{
+            display: flex ;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .Card1{
+            display: flex;
+            flex-direction: column;}
+        .Card2{
+            display: flex;
+            flex-direction: column;}
+        .Anh1{
+            display: flex;
+            flex-direction: column;
+            }
+            .Anh1 img{
+                padding: 0 8px;
+                width: 100%;
+            }
+            .Price .Price-content{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                text-align: center;
+            }
+            .Contact .Contact1{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                width: calc(100%+16px);
+                margin: 0 -16px;
+                padding: 24px 8px;
+                background-color: #9e9e9e;
+            }
+        
+            .Footer1{
+                padding: 32px 16px;
+                display: flex;
+                flex-direction: column;
+                background-color: #616161;
+                width: 100%;
+            }
+            .Footer1 .f1{
+                padding: 0 8px;
+                background-color: #616161;
+                max-width: 100%;
+                width: 100%;
+            }
+            .Footer1 .f2{
+                padding: 0 8px;
+                background-color: #616161;
+                max-width: 100%;
+                width: 100%;
+            }
+            .Footer1 .f3{
+                padding: 0 8px;
+                background-color: #616161;
+                max-width: 100%;
+                width: 100%;
+            }
+            .Hd1 .Photos{
+                margin: 0 2px;
+                display: none;
+            }
+            .Hd1 .ArtArt{
+                margin: 0 2px;
+                display: none;}
+}

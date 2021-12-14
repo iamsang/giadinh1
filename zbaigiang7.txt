@@ -1,0 +1,2 @@
+tính toán trong css : 
+ calc(100%+24px)

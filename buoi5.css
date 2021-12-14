@@ -1,0 +1,205 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+.khoi1trai{
+    display: flex;
+    flex-direction: row;
+   
+}
+.khoi1trai div:hover{
+    background-color: #ccc;
+
+}
+.khoi1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    
+}
+.trai1{
+    background-color: black;
+    position: relative;
+    padding: 12px 24px;list-style: none;
+    z-index: 1;
+}
+.trai12{
+    display: none;
+    
+    position: absolute;
+    list-style: none;
+    top: 100%;
+    color: black;
+    border: 12px 24px;
+    left:  -32px;
+
+}
+.trai12 li{
+    background-color: white;
+    color: black;
+    padding: 8px 16px;
+}
+.trai1 li:hover{
+    
+    background-color: blanchedalmond;
+    border: burlywood;
+    
+}
+.trai1:hover .trai12{
+    display: block;
+    
+    color: black;
+    border: 12px 24px;
+    
+}
+
+.trai{
+    padding: 12px 24px;
+}
+.khoi1phai{ 
+    padding: 12px 24px;
+}
+.band1 img{
+    width:60%;
+    border-radius: 5%;
+
+}
+.band1{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.Band h1{
+    text-align: center;
+}
+.Band .we1{
+    display: flex;
+    justify-content: center;
+margin: 20px 0px;
+    font-style: italic;
+}
+.Band .p11{ 
+    text-align: justify;
+}
+.Band .doan1{ 
+    display: flex;
+    text-align: justify;
+  margin: 0px 30px;
+  max-width: 800px;
+}
+.Band{
+    display: block;
+    margin: 100px 100px;
+    background-color: white;
+    max-width: 800px;
+}
+
+
+
+.TongTour {
+    background-color: black;
+}
+.Tour{
+    background-color: black;
+    max-width: 800px;
+    margin: auto;
+}
+.Tour h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.Tour .root1{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    color: whitesmoke; 
+}
+
+.Tour .Date{ 
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+    margin-top: 30px;
+    
+}
+.Tour .thang9{
+    color: white;
+    background-color: red;
+    width: fit-content;
+    margin-left: 16px;
+    padding: 0px 8px;
+    
+}
+.Tour .thang{
+    display: flex;
+    flex-direction: row;border: solid 1px #757575;
+    border-collapse: collapse;
+    padding: 8px 16px;
+    width: auto;
+    
+}
+.Tour .thang11{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid 1px #757575;
+    border-collapse: collapse;
+    padding: 8px 16px;
+}
+.Tour .so3{ 
+    display: block;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    padding: 0px 8px;
+    margin-right: 16px;
+    width: fit-content;
+    
+}
+
+.Tour .Pic{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.Tour .pic1{
+    margin: 8px;
+    background-color: white;
+    padding: 0 16px;
+    
+}
+.Tour .Tick{
+    color: white;
+    background-color: black;
+}
+.Tour .B1{
+    font-weight: 900;
+}
+.Pic img{
+    width: 100%;
+}
+.pic1 .I1{
+    opacity: 0.6;
+}
+.Pic p{
+    margin: 15px 0;
+}
+.dropdown-toggle::after{
+    border: 0;
+}
+.dropdown-item{
+    width: 100vw;
+    background-color: black
+    ;
+    color: white;
+    border: black;
+    padding: black;
+}
+.dropdown-menu.show{
+    background-color: black;
+}

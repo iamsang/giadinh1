@@ -1,0 +1,5 @@
+more bị mất lish : thêm z-index : 1
+max width : độ rộng tối đa . 
+làm mờ chữ : opacity 60% . mờ đi 60%
+thẻ img thêm width 60% : thu nhỏ ảnh lại còn 60%
+border bottom : coppy

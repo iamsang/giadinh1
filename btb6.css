@@ -1,0 +1,11 @@
+.row{
+    background-color: black;
+    line-height: 15px;
+    
+}
+.col-md-4,.col-12{
+   border: solid 1px white;
+    height: 50px;
+    background-color: black;
+    color: red;
+}

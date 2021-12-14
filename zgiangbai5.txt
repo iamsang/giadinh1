@@ -1,0 +1,7 @@
+hover : đưa chuột vào sẽ đổi màu
+cursor  : đưa trỏ chuột vào thành hình các thứ
+.cha:hover .con : cha con dấu cách. hover vào cha thì con nhận style . 
+                    đưa chuột vào cha thì con nhận style
+:hover thay đổi style khi đưa chuột qua
+dùng display none và display block
+data-bs-interval="2000" thời lượng trượt của slide
